@@ -352,7 +352,7 @@ include::example$hello/src/hello.clj[tags=routing]
 ----
 <1> We specify routes in a short notation, but they must be expanded and turned into a Router for use.
 <2> This is the "table syntax". There are xref:reference:routing-quick-reference.adoc[several formats]
-that can be passed to api:expand-routes[ns=io.pedestal.html.route].
+that can be passed to api:expand-routes[ns=io.pedestal.http.route].
 
 This routing table is a single route; the route matches:
 
